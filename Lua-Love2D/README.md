@@ -12,4 +12,4 @@ Space: Play Reset.
 # Run
 
 
-![Screenshot](screenshot.png)
+![Screenshot](../screenshot.png)
