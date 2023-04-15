@@ -11,7 +11,7 @@ function love.load()
     love.graphics.setDefaultFilter("nearest", "nearest")
     backgroundsky = love.graphics.newImage("images/background.png")
     backgroundhills = love.graphics.newImage("images/terrain.png")
-    background = love.graphics.newImage("images/ground")
+    background = love.graphics.newImage("images/ground.png")
     level1 = love.graphics.newImage("images/level1.png")
     level2 = love.graphics.newImage("images/level2.png")
     level3 = love.graphics.newImage("images/level3.png")
@@ -58,38 +58,33 @@ end
 function love.mousepressed(x, y, button)
     if playing then
         if button == 1 then
-            if x > 150 and x < 650 then
-                if y > 220 and y < 600 then
+            if y > 220 and y < 600 then
+                if x > 150 and x < 650 then
                     clicks = clicks + level
                 end
-            end
-            if x > 250 and x < 550 then
-                if y > 50 and y < 100 then
+            elseif y > 50 and y < 100 then
+                if x > 250 and x < 550 then
                     if level == 1 then
                         if money >= 70 then
                             level = level + 1
                             money = money - 70
                         end
-                    end
-                    if level == 2 then
+                    elseif level == 2 then
                         if money >= 140 then
                             level = level + 1
                             money = money - 140
                         end
-                    end
-                    if level == 3 then
+                    elseif level == 3 then
                         if money >= 210 then
                             level = level + 1
                             money = money - 210
                         end
-                    end
-                    if level == 4 then
+                    elseif level == 4 then
                         if money >= 280 then
                             level = level + 1
-                            money = money - 210
+                            money = money - 280
                         end
-                    end
-                    if level == 5 then
+                    elseif level == 5 then
                         if money >= 350 then
                             level = level + 1
                             money = money - 350
