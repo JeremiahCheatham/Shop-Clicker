@@ -19,4 +19,5 @@ Click Upgrade: Upgrades to next tier \
 Escape: Quit \
 Space: Play Reset.
 
+# Screenshot
 ![Screenshot](../screenshot.png)
