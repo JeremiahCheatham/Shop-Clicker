@@ -9,7 +9,7 @@ Space: Play Reset.
 
 # Ports
 [C - SDL2](C-SDL2)\
-[Cpp - SDL2](Cpp-SDL2)\
+[C++ - SDL2](Cpp-SDL2)\
 [JavaScript - Canvas2D](JavaScript-Canvas2D)\
 [Lua - Love2D](Lua-Love2D)
 
