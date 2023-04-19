@@ -1,7 +1,5 @@
 # Nuofdl Shop Clicker (JavaScript - Canvas2D)
-Click as fast as you can on the factory. Each click will add stock. \
-The business will earn money while there is stock. Upgrading will \
-increase stock usage, money earned and stock per click.
+Click as fast as you can on the factory. Each click will add stock. The business will earn money while there is stock. Upgrading will increase stock usage, money earned and stock per click.
 
 # Browser
     firefox index.html
