@@ -1,7 +1,5 @@
 # Nuofdl Shop Clicker (Lua - Love2D)
-Click as fast as you can on the factory. Each click will add stock. \
-The business will earn money while there is stock. Upgrading will \
-increase stock usage, money earned and stock per click.
+Click as fast as you can on the factory. Each click will add stock. The business will earn money while there is stock. Upgrading will increase stock usage, money earned and stock per click.
 
 # Windows 32bit/64bit
 There is a stand alone .exe file for both 32 and 64bit windows just click on it.
