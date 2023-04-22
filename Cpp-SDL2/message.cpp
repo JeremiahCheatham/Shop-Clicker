@@ -1,4 +1,5 @@
 #include "message.h"
+#include "game.h"
 
 Message::Message(std::shared_ptr<SDL_Renderer> renderer, std::string message, bool right)
     : renderer{renderer},
@@ -40,7 +41,7 @@ void Message::update(int num) {
     }
 
     if (this->right) {
-        this->rect.x = 800   - this->rect.w - 8;
+        this->rect.x = Game::width - this->rect.w - 8;
     }
 }
 
